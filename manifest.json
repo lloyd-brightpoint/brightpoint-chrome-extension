@@ -1,0 +1,14 @@
+{
+  "name": "BrightPoint Chrome Extension",
+  "version": "1.0",
+  "description": "Sales Rep Dashboard",
+  "manifest_version": 2,
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  }
+}
